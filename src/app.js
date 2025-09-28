@@ -132,3 +132,9 @@ export default app;
  ✔ Backend often sets cookies or JWTs for authentication
  ✔ Frontend sends cookies automatically on future requests
  **************************************************/
+
+//routes : 
+import userRouter from "./routes/user.routes.js";
+
+//routes declaration 
+app.use("/api/v1/users",userRouter);
